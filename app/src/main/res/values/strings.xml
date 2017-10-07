@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PizzaSpot</string>
+    <string name="title">Profile</string>
+    <string name="description">This is the best Pizza app ever made online.The best pizza in Toronto is little a slice of heaven. The delectable union of cheese, sauce and crust is undeniably delicious in all of its many forms, from thin, crispy crusts to cheesy deep dish squares.</string>
+    <string name="size_selection">What is your pizza size?</string>
+    <string name="add_on_selection">Select the toppings to decorate your pizza!!</string>
+    <string name="menu">Menu</string>
+    <string name="welcome_note">Welcome to pizza spot!!!</string>
+
+    <string name="item_one">Meat Supreme</string>
+    <string name="item_two">Super Hawaiian</string>
+    <string name="item_three">Veggie</string>
+    <string name="item_four">Mediterranean</string>
+    <string name="item_five">Cheddar Supreme</string>
+    <string name="radio_small">Small</string>
+    <string name="radio_medium">Medium</string>
+    <string name="radio_large">Large</string>
+    <string name="radio_extra_large">Extra Large</string>
+    <string name="topping_cheese">Cheese</string>
+    <string name="topping_green_pepper">Green Pepper</string>
+    <string name="topping_ham">Smoked Ham</string>
+    <string name="radio_spinach">Spinach</string>
+    <string name="radio_black_olives">Black Olives</string>
+    <string name="radio_spinach_onions">Spinach Onions</string>
+    <string name="button_check_out">Check Out</string>
+
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="postal_code">Postal code</string>
+    <string name="telephone_number">Telephone number</string>
+    <string name="customer_info">Customer Information</string>
+    <string name="payment_info">Payment Information</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="card_type">Card Type</string>
+    <string name="expiry_date">ExpiryDate</string>
+    <string name="card_type_hint">Master,Visa</string>
+
+    <string name="message"><![CDATA[Thank you for your online order.Your <Type of Pizza> order successfully received and will be delivered soon]]></string>
+</resources>

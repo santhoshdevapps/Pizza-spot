@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.santhoshdamodharan.santhoshdamodharan_mapd711_lab_pizzaonline.MainActivity"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:id="@+id/textViewWelcomeNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/menu_text"
+        android:text="@string/welcome_note"
+        android:textAlignment="center"
+        android:textColor="@color/head_title"
+        android:textSize="@dimen/welcome_note_text"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:layout_marginTop="@dimen/top_padding"
+        android:src="@drawable/pizza_asset"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/menu_text"
+        android:text="@string/description"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/welcome_descrip_note" />
+
+</LinearLayout>

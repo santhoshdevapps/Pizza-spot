@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.santhoshdamodharan.santhoshdamodharan_mapd711_lab_pizzaonline.AddOnActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="353dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="@dimen/drawable_left_padding"
+            android:layout_marginTop="@dimen/top_padding"
+            android:text="@string/add_on_selection"
+            android:textColor="@color/head_title"
+            android:textSize="@dimen/head_note" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topping_cheese"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text" />
+
+
+    <CheckBox
+        android:id="@+id/checkbox_smoked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topping_green_pepper"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkbox_ham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topping_ham"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkbox_spinach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_spinach"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text" />
+
+    <CheckBox
+        android:id="@+id/checkbox_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_black_olives"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text" />
+
+    <CheckBox
+        android:id="@+id/checkbox_spanish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_spinach_onions"
+        android:textColor="@color/header_text_color"
+        android:textSize="@dimen/menu_text" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@color/button_color"
+        android:text="@string/button_check_out"
+        android:textColor="@color/button_text_color" />
+
+
+</LinearLayout>

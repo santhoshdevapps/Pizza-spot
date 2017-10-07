@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_text">8pt</dimen>
+    <dimen name="description_text">10pt</dimen>
+    <dimen name="drawable_left_padding">6dp</dimen>
+    <dimen name="bottom_padding">6dp</dimen>
+    <dimen name="top_padding">10dp</dimen>
+    <dimen name="welcome_note_text">12pt</dimen>
+    <dimen name="welcome_descrip_note">8pt</dimen>
+    <dimen name="head_note">25dp</dimen>
+
+</resources>
